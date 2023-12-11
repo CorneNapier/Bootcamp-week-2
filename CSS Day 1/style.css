@@ -1,5 +1,7 @@
 * {
     background-color: blanchedalmond;
+    align-items: center;
+    text-align: center;
 }
 
 h1 {
@@ -19,7 +21,11 @@ img {
     height: 100px;
     border: 5px solid black;
     padding: 50px;
-    margin: 10px;
+    margin:auto;
     background-color: brown;
     color: white;
+}
+
+ul {
+    list-style-type: none;
 }
