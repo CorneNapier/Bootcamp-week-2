@@ -18,16 +18,44 @@ Using CSS, I would like you to adjust the width and/or height of the inline-bloc
 </head>
 
 <body>
-    <!-- Block level element -->
-    <h1>Display Activity</h1>
-    <!-- The Anchor tag nested in the paragraph tag is an inline element -->
-    <p>Click <a href="https://www.google.co.uk/">here</a> for google!</p>
-    <!-- An image is an inline-block level element -->
-    <img src="pexels-bibek-ghosh-14553707.jpg" alt="image of computer code">
 
-    <h2>About</h2>
+    <header>
+        <!-- Block level element -->
+        <h1>Display Activity</h1>
+        <!-- The Anchor tag nested in the paragraph tag is an inline element -->
+        <p>Click <a href="https://www.google.co.uk/">here</a> for google!</p>
+        <!-- An image is an inline-block level element -->
+        <img src="pexels-bibek-ghosh-14553707.jpg" alt="image of computer code">
+    </header>
 
-    <p>This page is to see how inline, block and inline-block elements work.</p>
+    <main>
+
+        <h2>About</h2>
+
+        <p>This page is to see how inline, block and inline-block elements work.</p>
+
+        <h2>Box-Model</h2>
+
+        <p>Each HTML element in CSS is essentially a box. A box is made up of 4 sections; Margin, Border,
+            Padding,
+            Content.</p>
+
+        <ul>
+            <li>Margin - The space between the element and the page border, or the surrounding elements.</li>
+            <li>Border - The border that surrounds the padding and content.</li>
+            <li>Padding - The space between the content and the border. Even if the border is set to 0, padding still
+                sits
+                between it and the content.</li>
+            <li>Content - The content is where the text or image will appear. The size of the content is determined by
+                the
+                height and width properties.</li>
+        </ul>
+
+        <div class="box">
+            This is a box!
+        </div>
+
+    </main>
 
 </body>
 
