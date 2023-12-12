@@ -1,3 +1,4 @@
+/* Declare variables in :root selector */
 :root {
     --powderblue: #A2BCE0;
     --davysgray: #5E5C6C;
@@ -13,4 +14,9 @@ article {
     color: var(--davysgray);
     padding: var(--spacing);
     margin: var(--spacing);
+}
+
+/* Variables can be declared locally, it wont change everwhere.*/
+#article2 {
+    --powderblue: #1455b1;
 }
