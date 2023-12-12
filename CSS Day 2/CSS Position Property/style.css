@@ -19,10 +19,26 @@
     /* position: fixed;  */
     position: sticky;
     top: 0;
-    
+
 }
 
 .box2 {
     position: absolute;
     top: 50px;
+}
+
+#navBar {
+    position: sticky;
+    top: 10px;
+}
+
+.box3 {
+    height: 200px;
+    width: 200px;
+    background-color: powderblue;
+    border: 2px solid black;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    right: 500px;
 }
