@@ -1,0 +1,16 @@
+:root {
+    --powderblue: #A2BCE0;
+    --davysgray: #5E5C6C;
+    --midnightgreen: #0B5563;
+    --celestialblue: #5299D3;
+    --periwinkle: #BEB8EB;
+    --spacing: 10px;
+}
+
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--celestialblue);
+    color: var(--davysgray);
+    padding: var(--spacing);
+    margin: var(--spacing);
+}
