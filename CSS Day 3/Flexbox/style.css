@@ -1,0 +1,38 @@
+/* base styling */
+* {
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 15px;
+}
+
+#box1 {
+    background-color: rebeccapurple;
+}
+
+#box2 {
+    background-color: powderblue;
+}
+
+#box3 {
+    background-color: palegreen;
+}
+
+.container {
+    border: 3px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 800px;
+}
+
+/* Flexbox Code - Below */
+
