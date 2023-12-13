@@ -35,4 +35,50 @@ h1 {
 }
 
 /* Flexbox Code - Below */
+.container {
+    display: flex;
+    /* Flex-Direction - Controls our main axis - set to row by default */
+    /* flex-direction: row; */
 
+    /* Flex-wrap - Controls how or if our elements will wrap if the container is too small to fit them. */
+    /* No wrap is the default setting */
+    flex-wrap: wrap;
+
+    /* Justify-content - controls how elements are distributed across the main axis */
+    /* Set to flex-start by default */
+    /* justify-content: space-between; */
+
+    /* Align-Items - how we align elements on the secondary axis. Set to stretch by default */
+    /* align-items: center; */
+
+    /* Align-content - controls how our elements are aligned on our secondary axis *only if flex wrap is in effect* */
+    /* align-content: space-between; */
+}
+
+#box1 {
+    /* like align items but works better for manipulating indivdual elements in a container. */
+    /* align-self: stretch; */
+    
+    /* Flex-basis - sets a min width of an element if theres space to do so in a container. */
+    flex-basis: 300px;
+
+    /* Flex-grow - takes a number value - Sets the rate at which an element will grow into available space */
+    /* flex-grow: 1; */
+
+    /* Flex-shrink - is the reverse of flex-grow */
+    flex-shrink: 1;
+
+}
+
+#box2 {
+
+    flex-basis: 300px;
+    /* flex-grow: 2; */
+
+}
+
+#box3 {
+
+    flex-basis: 300px;
+
+}
