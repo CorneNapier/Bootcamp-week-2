@@ -63,13 +63,11 @@ Breapoint is a defined size at which we wish to apply a change of CSS styling. *
     }
 }
 
-@media (max-width: 600px) {
-    body {
-        background-color: green;
-    }
+/* Mobile Phone Breakpoint */
 
-    .desktop {
-        display: none;
+@media (max-width: 500px) {
+    body {
+        background-color: #007d1f;
     }
 
     .tablet {
@@ -78,5 +76,6 @@ Breapoint is a defined size at which we wish to apply a change of CSS styling. *
 
     .smartphone {
         display: flex;
+        font-size: 2rem;
     }
 }
